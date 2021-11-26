@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "libs/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "yes": true
+    },
+    "version": "chore(release): publish %v"
+  }
+}
